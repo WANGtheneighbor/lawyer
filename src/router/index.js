@@ -5,7 +5,7 @@ const routes = [
     path: '/',
     name: '/',
     component: () => import('../layout/index.vue'),
-    redirect: 'home',
+    redirect: 'search',
     children: [
       {
         path: 'search',
