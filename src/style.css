@@ -55,6 +55,10 @@ div:focus {
   height: 100%;
 }
 
+.el-main {
+  position: relative;
+}
+
 .el-header {
   display: flex;
   z-index: 1;
